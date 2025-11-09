@@ -141,7 +141,7 @@
     font-size: 40px;
     line-height: 100%;
     font-weight: 700;
-    padding: 180px 40px 27px 0;
+    padding: 180px 0 27px 40px;
 }
 
 .card_type_film {
@@ -220,16 +220,18 @@
     line-height: 100%;
     font-weight: 700;
     padding-top: 133px;
+    padding-left: 15px;
 }
 
 .about__text {
     font-size: 20px;
     line-height: 24px;
     font-weight: 400;
+    padding-left: 15px;
 }
 
 .text-start {
-    padding: 103px 5px 24px 0;
+    padding: 103px 5px 24px 15px;
 }
 
 .footer {
