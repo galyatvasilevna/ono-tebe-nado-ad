@@ -3,6 +3,7 @@
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items:center;
+    padding-bottom: 96px;
 }
 
 .header__links-list {
@@ -33,7 +34,7 @@
     margin-left: 36.52px;
 }
 
-.header__logo-image{
+.header__logo-image {
     width: 129.11px;
     height: 104.65px;
     margin-top: 1.16px;
@@ -57,7 +58,7 @@
     background-image: url("/images/cover.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: 1100px 767px;
 }
 
 .overlay {
@@ -90,7 +91,7 @@
     display: flex;
     align-items:center;
     justify-content: space-between;
-    padding: 106px 50px;
+    padding: 106px 50px 50px;
     z-index: 1;
 }
 
@@ -139,8 +140,7 @@
     font-size: 40px;
     line-height: 100%;
     font-weight: 700;
-    padding-bottom: 27px;
-    padding-left: 40px;
+    padding: 180px 40px 27px 0;
 }
 
 .card_type_film {
@@ -233,7 +233,7 @@
 
 .footer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: start;
     padding-top: 180px;
 }
@@ -256,7 +256,7 @@
     list-style: none;
 }
 
-.footer__menu-link_active{
+.footer__menu-link_active {
     text-decoration: none;
 }
 
