@@ -51,7 +51,7 @@
     font-size: 18px;
     line-height: 24.3px;
     font-weight: 400;
-    list-style: none;    
+    list-style: none;
 }
 
 .cover {
@@ -68,7 +68,8 @@
 
 .cover__title {
     font-size: 100px;
-    line-height: 1.15;
+    line-height: 115%;
+    letter-spacing: 30%;
     font-weight: 700;
     color: #fff;
     padding: 165px 50px 0;
@@ -91,7 +92,7 @@
     display: flex;
     align-items:center;
     justify-content: space-between;
-    padding: 106px 50px 50px;
+    padding: 156px 50px 50px;
     z-index: 1;
 }
 
@@ -240,6 +241,7 @@
 
 .footer__address {
     padding-left: 50px;
+    padding-bottom: 82px;
     list-style: none;
 }
 
